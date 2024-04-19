@@ -1,0 +1,47 @@
+body {
+    max-width: 500px;
+    background-repeat: repeat;
+    background-position: fixed;
+    background-size: 100% 100%;
+}
+
+.server-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    padding: 5px;
+}
+
+.server-table th, .server-table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.server-table th {
+    background-color: #9498a1;
+    color: #000000;
+}
+
+.server-table .table-row-even {
+    background-color: #69d7f8;
+    color: #000;
+}
+
+.server-table .table-row-odd {
+    background-color: #e6f705;
+    color: #000;
+}
+
+.server-table tr:hover {
+    background-color: #e06161;
+}
