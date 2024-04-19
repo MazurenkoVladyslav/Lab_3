@@ -1,0 +1,46 @@
+body {
+    max-width: 500px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+.d {
+    background-color: #71ca85;
+    color: #000;
+}
+
+.v {
+    background-color: #50af5d;
+    color: #000;
+}
+
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+
+th {
+    background-color: #7aa2f8;
+    color: #000000;
+}
+body{
+    background-image:url(551.jpg) ;
+    background-repeat: repeat;
+    background-position: fixed;
+    background-size: 100% 100%;
+}
